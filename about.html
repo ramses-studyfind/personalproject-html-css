@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="about-html">
+    <link href="styling.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <body class="about-body">
+        <div id="page-change">
+            <input type="button" class="menu-button" onclick="window.location.href='index.html';" value="Home" />
+            <input type="button" class="menu-button" onclick="window.location.href='about.html';" value="About" />
+            <input type="button" class="menu-button" onclick="window.location.href='contact.html';" value="Contact" />
+            <input type="button" class="menu-button" onclick="window.open('https://github.com/ramses000')" value="Github" />
+            <input type="button" class="menu-button" onclick="window.open('https://www.linkedin.com/in/ramses-terry/')" value="LinkedIn" />
+            <input type="button" class="menu-button" onclick="window.open('https://portosaurus.github.io/ramsesterry/')" value="Portfolio" />
+        </div>
+        <div class="about-container">
+            <div class="about-name">
+                <h1>
+                    About
+                </h1>
+            </div>
+            <div class="about-image">
+                <div id="picome">
+                    <input type="image" id="about-div-img" placeholderstyle="height:150px;width:150px;" src="img/github-img.png" onclick="window.open('https://github.com/ramses000')"/>
+                </div>
+            </div>
+            <div class="about-info">
+                <div class="about-projects">
+                    <div class = "about-project1">
+                        <div><img id= "about-pic" src="img/css.png" alt="CSS Logo" width="150" height="150"></div>
+                        Personal Website (HTM, CSS)
+                        <ul id="home-course">
+                        <li>Demonstrates utilization of HTML & CSS Principles</li>
+                        <li>Utilize flexbox and grid layout to format website</li>
+                        <li>Utilize buttons to redirect user to other pages and external links</li>
+                        </ul>
+                    </div>
+                    <div class = "about-project2">
+                        <div><img id= "about-pic" src="img/orm.png" alt="CSS Logo" width="150" height="150"></div>
+                        OneRepMax GUI (Java)
+                        <ul id="home-course">
+                            <li>Utilized Apache NetBeans to create a GUI using Swing buttons, labels, and multiple panels</li>
+                            <li>Took in Swing text input to create a double variable and create error codes if number not in range</li>
+                            <li>Display probable max weight able to lift and display table with probable weight able to lift for certain mount of reps</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="about-external-links">
+                <h3 id="about-el"> More Coming Soon!</h3>
+            </div>
+        </div>
+    </body>
+</html>
